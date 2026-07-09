@@ -2,6 +2,10 @@
 
 An interactive, museum-themed portfolio built with Next.js 15, React 19, TypeScript, Tailwind CSS, Framer Motion, and React Three Fiber.
 
+## Live site
+
+Open the deployed portfolio here: **https://f25607162.github.io/Portfolio2/**
+
 ## Getting started
 
 ```bash
@@ -41,6 +45,12 @@ This project is Vercel-ready. Push to a GitHub repo and import it at [vercel.com
 ```bash
 npx vercel
 ```
+
+### GitHub Pages
+
+This repository also includes a GitHub Pages workflow (`/.github/workflows/deploy-pages.yml`) that builds the Next.js app as a static export and deploys it to:
+
+**https://f25607162.github.io/Portfolio2/**
 
 ## Structure
 

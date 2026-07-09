@@ -1,10 +1,16 @@
 const path = require("path");
+const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: "export",
+  trailingSlash: true,
+  basePath: isGitHubPages ? "/Portfolio2" : "",
+  assetPrefix: isGitHubPages ? "/Portfolio2/" : "",
   images: {
     formats: ["image/avif", "image/webp"],
+    unoptimized: true,
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
