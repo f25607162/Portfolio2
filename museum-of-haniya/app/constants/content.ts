@@ -1,6 +1,7 @@
 export const SITE = {
   name: "The Museum of Haniya",
   tagline: "Where curiosity meets artificial intelligence",
+  liveUrl: "https://f25607162.github.io/Portfolio2/",
   author: "Haniya",
   role: "BS Artificial Intelligence student",
   university: "National University of Technology (NUTECH), Islamabad",

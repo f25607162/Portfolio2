@@ -81,6 +81,9 @@ export function Hero() {
           <Button href="#projects" variant="primary">
             Explore gallery
           </Button>
+          <Button href={SITE.liveUrl} variant="outline">
+            Open live site
+          </Button>
           <Button href="/resume.pdf" variant="outline">
             Download resume
           </Button>
